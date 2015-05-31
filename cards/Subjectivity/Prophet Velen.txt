@@ -1,0 +1,4 @@
+<div>
+    <a href="https://plot.ly/~dcamara63/463/" target="_blank" title="Prophet Velen  Comment Subjectivity" style="display: block; text-align: center;"><img src="https://plot.ly/~dcamara63/463.png" alt="Prophet Velen  Comment Subjectivity" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="dcamara63:463" src="https://plot.ly/embed.js" async></script>
+</div>

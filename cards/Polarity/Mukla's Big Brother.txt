@@ -1,0 +1,4 @@
+<div>
+    <a href="https://plot.ly/~dcamara63/777/" target="_blank" title="Mukla&amp;#x27;s Big Brother  Comment Polarity" style="display: block; text-align: center;"><img src="https://plot.ly/~dcamara63/777.png" alt="Mukla&amp;#x27;s Big Brother  Comment Polarity" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="dcamara63:777" src="https://plot.ly/embed.js" async></script>
+</div>

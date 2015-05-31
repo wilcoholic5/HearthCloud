@@ -1,0 +1,4 @@
+<div>
+    <a href="https://plot.ly/~dcamara63/690/" target="_blank" title="&amp;#x27;Inspired&amp;#x27;  Comment Subjectivity" style="display: block; text-align: center;"><img src="https://plot.ly/~dcamara63/690.png" alt="&amp;#x27;Inspired&amp;#x27;  Comment Subjectivity" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="dcamara63:690" src="https://plot.ly/embed.js" async></script>
+</div>

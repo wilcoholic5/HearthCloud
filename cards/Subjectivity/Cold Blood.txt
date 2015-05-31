@@ -1,0 +1,4 @@
+<div>
+    <a href="https://plot.ly/~dcamara63/166/" target="_blank" title="Cold Blood  Comment Subjectivity" style="display: block; text-align: center;"><img src="https://plot.ly/~dcamara63/166.png" alt="Cold Blood  Comment Subjectivity" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="dcamara63:166" src="https://plot.ly/embed.js" async></script>
+</div>

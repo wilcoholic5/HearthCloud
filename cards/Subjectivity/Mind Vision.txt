@@ -1,0 +1,4 @@
+<div>
+    <a href="https://plot.ly/~dcamara63/839/" target="_blank" title="Mind Vision  Comment Subjectivity" style="display: block; text-align: center;"><img src="https://plot.ly/~dcamara63/839.png" alt="Mind Vision  Comment Subjectivity" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="dcamara63:839" src="https://plot.ly/embed.js" async></script>
+</div>

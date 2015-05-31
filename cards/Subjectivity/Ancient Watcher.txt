@@ -1,0 +1,4 @@
+<div>
+    <a href="https://plot.ly/~dcamara63/323/" target="_blank" title="Ancient Watcher  Comment Subjectivity" style="display: block; text-align: center;"><img src="https://plot.ly/~dcamara63/323.png" alt="Ancient Watcher  Comment Subjectivity" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="dcamara63:323" src="https://plot.ly/embed.js" async></script>
+</div>

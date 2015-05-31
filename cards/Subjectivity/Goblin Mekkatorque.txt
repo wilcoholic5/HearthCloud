@@ -1,0 +1,4 @@
+<div>
+    <a href="https://plot.ly/~dcamara63/506/" target="_blank" title="Gelbin Mekkatorque  Comment Polarity" style="display: block; text-align: center;"><img src="https://plot.ly/~dcamara63/506.png" alt="Gelbin Mekkatorque  Comment Polarity" style="max-width: 100%;width: 1368px;"  width="1368" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="dcamara63:506" src="https://plot.ly/embed.js" async></script>
+</div>

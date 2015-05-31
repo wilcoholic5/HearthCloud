@@ -1,0 +1,4 @@
+<div>
+    <a href="https://plot.ly/~dcamara63/543/" target="_blank" title="Wisp  Comment Subjectivity" style="display: block; text-align: center;"><img src="https://plot.ly/~dcamara63/543.png" alt="Wisp  Comment Subjectivity" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="dcamara63:543" src="https://plot.ly/embed.js" async></script>
+</div>

@@ -1,0 +1,4 @@
+<div>
+    <a href="https://plot.ly/~dcamara63/604/" target="_blank" title="Bestial Wrath  Comment Polarity" style="display: block; text-align: center;"><img src="https://plot.ly/~dcamara63/604.png" alt="Bestial Wrath  Comment Polarity" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="dcamara63:604" src="https://plot.ly/embed.js" async></script>
+</div>

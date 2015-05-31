@@ -1,0 +1,4 @@
+<div>
+    <a href="https://plot.ly/~dcamara63/770/" target="_blank" title="Pandaren Scout  Comment Subjectivity" style="display: block; text-align: center;"><img src="https://plot.ly/~dcamara63/770.png" alt="Pandaren Scout  Comment Subjectivity" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="dcamara63:770" src="https://plot.ly/embed.js" async></script>
+</div>

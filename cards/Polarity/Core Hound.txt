@@ -1,0 +1,4 @@
+<div>
+    <a href="https://plot.ly/~dcamara63/362/" target="_blank" title="Core Hound  Comment Polarity" style="display: block; text-align: center;"><img src="https://plot.ly/~dcamara63/362.png" alt="Core Hound  Comment Polarity" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="dcamara63:362" src="https://plot.ly/embed.js" async></script>
+</div>

@@ -1,0 +1,4 @@
+<div>
+    <a href="https://plot.ly/~dcamara63/724/" target="_blank" title="King Mukla  Comment Subjectivity" style="display: block; text-align: center;"><img src="https://plot.ly/~dcamara63/724.png" alt="King Mukla  Comment Subjectivity" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="dcamara63:724" src="https://plot.ly/embed.js" async></script>
+</div>
