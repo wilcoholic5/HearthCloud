@@ -1,0 +1,14 @@
+body {
+    background-image: url(../img/back.png);
+}
+.wrapper {
+    background-color:White;
+    box-shadow:0px 0px 10px 3px #ccc;
+    padding:20px;
+}
+
+.cardTitle{
+    background-color:#f9f9f9;
+    padding:12px;
+    box-shadow:0px 2px 3px 3px #eee;
+}

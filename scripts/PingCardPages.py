@@ -5,7 +5,7 @@ import urllib2
 import time
 import re
 
-i = 3000
+i = 3200
 cards = []
 for num in range(1, i):
 		webpage = urllib2.Request('http://www.hearthhead.com/card='+str(num))
@@ -17,6 +17,8 @@ for num in range(1, i):
 				continue
 		print 'adding ' + str(num)
 		cards.append(num)
+		if num > 511:
+			print cards
 		
 print cards
 #soup = BeautifulSoup(browser.page_source)

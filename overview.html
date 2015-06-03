@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>Hearthstone Cards</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-sanitize.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/d3/d3.js"></script>
+    <script src="js/d3/d3.layout.cloud.js"></script>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+<div id="wrapper" ng-app="myApp" ng-controller="myCtrl">
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 wrapper">
+                    <h1>Card Data</h1>
+                    <a href="index.html">Search</a>
+
+                    <div ng-model="result" class="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+</div>
+</body>
+</html>

@@ -22,12 +22,14 @@ app.controller('myCtrl', function($scope) {
         $scope.$apply(function(){
             $scope.result = cardBlock;
             var words = [];
-            cardBlock.comments.forEach(function (entry) {
-                for (var i = 0; i < entry[1]; i++) {
-                    words.push(entry[0])
-                }
-            });
-            update(words)
+            //cardBlock.comments.forEach(function (entry) {
+            //    console.log(entry[1])
+            //    for (var i = 0; i < entry[1]; i++) {
+            //        console.log('push ' + entry[0])
+            //        words.push(entry[0])
+            //    }
+            //});
+            update($scope.result.comments)
 
             $scope.result.fileLoc = "../cards/Polarity/" + $scope.result.cardName + ".txt";
             $scope.readFile($scope.result.fileLoc);
@@ -59,16 +61,19 @@ app.controller('myCtrl', function($scope) {
 });
 
 function draw(words) {
-    d3.select("body").append("svg")
-        .attr("width", 300)
-        .attr("height", 300)
+    console.log("words here")
+    console.log(words)
+    d3.select(".wrapper").append("svg")
+        .attr("width", 1000)
+        .attr("height", 1000)
         .append("g")
-        .attr("transform", "translate(150,150)")
+        .attr("transform", "translate(600,600)")
         .selectAll("text")
         .data(words)
         .enter().append("text")
         .style("font-size", function(d) { return d.size + "px"; })
         .style("font-family", "Impact")
+        .style("border", "1px solid black")
         .style("fill", function(d, i) { return fill(i); })
         .attr("text-anchor", "middle")
         .attr("transform", function(d) {

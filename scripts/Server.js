@@ -15,6 +15,17 @@ var db = MongoClient.connect('mongodb://127.0.0.1:27017/comments', function(err,
 		throw err;
 	console.log("connected to the mongoDB !");
 	myCollection = db.collection('cardData');
+	cards = myCollection.find()
+	totalComments = 0;
+	cardCount = 0;
+	averageComments = 0;
+	cards.forEach(function (card) {
+		if (card.commentCount != undefined) {
+			cardCount++;
+			totalComments += card.commentCount
+			averageComments = totalComments/cardCount;
+		}
+	})
 });
 
 var WebSocketServer = require('websocket').server;
@@ -31,10 +42,14 @@ function cardSearch(name, connection) {
 		return myCollection.findOne({cardName : name},
 		function(err, result) {   // callback
 			stuff = result
-
+			console.log(stuff)
 			var html = fs.readFile("../cards/Polarity/"+result.cardName+".txt", "utf8", function(error, data) {
 				result.html = data;
-				connection.sendUTF(JSON.stringify(result));
+				var html = fs.readFile("../cards/Subjectivity/"+result.cardName+".txt", "utf8", function(error, data) {
+					result.html2 = data;
+					result.popularity = Number((result.commentCount/averageComments).toFixed(1));
+					connection.sendUTF(JSON.stringify(result));
+				});
 			})
 		
 			return result
